@@ -1,0 +1,14 @@
+{
+  "length": 100,
+  "seeds": [123, 124, 125, 126, 127],
+  "methods": ["euler", "midpoint"],
+  "network_budgets_including_final_prediction": [21, 101],
+  "self_conditioning": true,
+  "midpoint_history_policy": "frozen within step, update from midpoint prediction",
+  "terminal_time_mode": "endpoint",
+  "proteinmpnn": {"model": "v_48_020", "temperature": 0.1, "seed_per_backbone": 38, "sequences_per_backbone": 2},
+  "folding_backend": "ESM Atlas public API, same endpoint for all candidates; server settings not exposed",
+  "primary_quality_metric": "best-over-two full-residue CA RMSD after Kabsch alignment",
+  "quality_success_threshold_A": 2.0,
+  "numerical_study": {"seeds": [123, 124], "self_conditioning": false, "start": 0.01, "stop": 0.99, "reference_method": "midpoint", "initial_reference_intervals": [128, 256], "maximum_reference_intervals": 2048, "translation_stability_threshold_A": 0.05, "rotation_stability_threshold_rad": 0.005, "cross_solver_check": "Euler at twice the last midpoint reference interval count"}
+}

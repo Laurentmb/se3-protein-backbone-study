@@ -1,0 +1,40 @@
+{
+  "attempted_sequences": 2,
+  "successful_predictions": 2,
+  "pipeline_verified": true,
+  "rmsd_definition": "sqrt(mean(squared CA distances)), all residues, Kabsch fit",
+  "tm_score_definition": "TM-align vended by tmtools 0.2.0, both normalizations",
+  "metric_rigid_transform_control_rmsd_A": 7.6769333194314e-15,
+  "candidates": [
+    {
+      "id": "frameflow_L100_seed123_seq1",
+      "success": true,
+      "residues": 100,
+      "ca_rmsd_A": 6.672094651033152,
+      "ca_mean_distance_A": 5.42925581106001,
+      "tm_score_normalized_backbone": 0.6944268194245644,
+      "tm_score_normalized_prediction": 0.6944268194245644,
+      "ca_mean_bfactor_confidence_raw": 0.5827,
+      "ca_min_bfactor_confidence_raw": 0.27,
+      "bfactor_confidence_scale": "0..1",
+      "passes_rmsd_under_2A": false
+    },
+    {
+      "id": "frameflow_L100_seed123_seq2",
+      "success": true,
+      "residues": 100,
+      "ca_rmsd_A": 1.0993186087573992,
+      "ca_mean_distance_A": 0.8713889524773877,
+      "tm_score_normalized_backbone": 0.9323762528694098,
+      "tm_score_normalized_prediction": 0.9323762528694098,
+      "ca_mean_bfactor_confidence_raw": 0.8449000000000001,
+      "ca_min_bfactor_confidence_raw": 0.66,
+      "bfactor_confidence_scale": "0..1",
+      "passes_rmsd_under_2A": true
+    }
+  ],
+  "best_sequence_by_rmsd": "frameflow_L100_seed123_seq2",
+  "scRMSD_A": 1.0993186087573992,
+  "scTM": 0.9323762528694098,
+  "passes_scRMSD_under_2A": true
+}

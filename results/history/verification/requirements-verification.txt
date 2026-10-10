@@ -1,0 +1,5 @@
+# Add these to the generation environment described in ../se3-pilot/README.md.
+# ESMFold predictions in this verification used the public API, not local weights.
+tmtools==0.2.0
+requests==2.25.1
+matplotlib==3.7.5

@@ -1,0 +1,12 @@
+# Downloaded upstream code, models and local Python environments.
+external/
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+# New experiments are local; recorded evidence is committed under results/.
+runs/
+*.zip

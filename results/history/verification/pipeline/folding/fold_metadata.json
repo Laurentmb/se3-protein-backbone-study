@@ -1,0 +1,24 @@
+[
+  {
+    "id": "frameflow_L100_seed123_seq1",
+    "sequence_length": 100,
+    "sequence_sha256": "3766b01a9789cd4b0397733e5df871bade3d3a81d61517f585f14f8b31405ebf",
+    "endpoint": "https://api.esmatlas.com/foldSequence/v1/pdb/",
+    "success": true,
+    "http_status": 200,
+    "pdb": "frameflow_L100_seed123_seq1.pdb",
+    "pdb_sha256": "e47555a5712e5bc960310a89d0e11c0255573dedf34069cac2a2687f9ea8d815",
+    "seconds": 2.4853883
+  },
+  {
+    "id": "frameflow_L100_seed123_seq2",
+    "sequence_length": 100,
+    "sequence_sha256": "2a392327808d341e052ed994aa5be6e4389b7e2cb62be8cae22a9a4335c82867",
+    "endpoint": "https://api.esmatlas.com/foldSequence/v1/pdb/",
+    "success": true,
+    "http_status": 200,
+    "pdb": "frameflow_L100_seed123_seq2.pdb",
+    "pdb_sha256": "4c910042ec26b9f3a25371a963c8b71e701d19d2e5fe32ff4a0337081ab7f208",
+    "seconds": 1.9582677000000004
+  }
+]

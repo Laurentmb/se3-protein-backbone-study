@@ -1,0 +1,6 @@
+run,method,self_conditioning,terminal_time_mode,network_evaluations,sampling_seconds,residues,backbone_atoms,finite_coordinates,ca_ca_mean_A,ca_breaks_over_4_5_A,ca_pairs_under_1_5_A,peptide_c_n_pairs_over_2_A,max_integrated_orthogonality_error
+euler,euler,True,endpoint,21,1.8953407999999996,100,400,True,3.8284254570938145,0,0,0,8.344650268554688e-07
+euler_no_sc,euler,False,endpoint,21,3.0391460000000006,100,400,True,3.864732988858197,0,0,0,8.344650268554688e-07
+euler_upstream,euler,True,upstream,21,2.006652599999999,100,400,True,3.88410643648973,0,0,0,8.344650268554688e-07
+midpoint,midpoint,True,endpoint,21,1.908819300000001,100,400,True,3.835661064747122,0,0,0,1.4662742614746094e-05
+midpoint_no_sc,midpoint,False,endpoint,21,3.063955600000001,100,400,True,3.864138037104288,0,0,0,3.403425216674805e-05

@@ -1,0 +1,21 @@
+{
+  "method": "euler",
+  "length": 100,
+  "seed": 123,
+  "intervals": 20,
+  "network_evaluations": 21,
+  "sampling_seconds": 2.006652599999999,
+  "self_conditioning": true,
+  "midpoint_history_policy": "frozen within step; update from midpoint prediction",
+  "terminal_projection": "one clean prediction, counted in budget",
+  "terminal_time_mode": "upstream",
+  "max_integrated_orthogonality_error": 8.344650268554688e-07,
+  "checkpoint_sha256": "7d0906e0184e87d1101a2be4c24c530d434e9fac01c1d777d65a63fccd1c958a",
+  "initial_state_sha256": "6f05400a6abb6f5fc975b159cca7814e620626eac7bf8fad1db458e3f5ae187b",
+  "pdb_sha256": "49036a8801a7c80ff67ad9250cd9be170be63ae1942d45121411a95fefa38e55",
+  "upstream_equivalence": {
+    "network_evaluations": 21,
+    "unaligned_CA_RMSD_A": 1.59485682615923e-06,
+    "max_CA_difference_A": 4.978326160198776e-06
+  }
+}

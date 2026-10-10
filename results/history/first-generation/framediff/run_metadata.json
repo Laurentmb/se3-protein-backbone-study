@@ -1,0 +1,29 @@
+{
+  "model": "framediff",
+  "length": 100,
+  "seed": 123,
+  "repo_url": "https://github.com/jasonkyuyim/se3_diffusion",
+  "repo_commit": "53359d71cfabc819ffaa571abd2cef736c871a5d",
+  "checkpoint_filename": "weights\\paper_weights.pth",
+  "checkpoint_sha256": "b9837036e673e9e4b1e3091e88b300e0f9bef5ac961d4aa08e77e5b75c9eb081",
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce GTX 1650 Ti",
+  "torch": "2.0.1+cu118",
+  "python": "3.8.8 (default, Apr 13 2021, 15:08:03) [MSC v.1916 64 bit (AMD64)]",
+  "numpy": "1.23.5",
+  "setup_seconds": 5.769446899999999,
+  "sampling_seconds": 59.0858509,
+  "peak_gpu_allocated_mib": 145.72509765625,
+  "peak_gpu_reserved_mib": 194.0,
+  "num_forward_passes": 501,
+  "pdb_sha256": "f221ff9567858d78f18bd824c7db0a15f9f5391d3f0bef75c4a42d8c1d9fc5d1",
+  "compatibility_adaptations": [
+    "Windows atom group indices cast to int64",
+    "generation-only wrapper; no training or folding models loaded"
+  ],
+  "runner_sha256": "f46034158533de873360a20922dfc18742edfa431305cb14b44b8c6fa4ee6b23",
+  "num_steps": 500,
+  "min_t": 0.01,
+  "noise_scale": 0.1,
+  "upstream_sampling_methods_sha256": "12faab20dd63666adab9d0ece15c7ce1e966a9a85f832cd0a4c7d21fbb3f4fa2"
+}

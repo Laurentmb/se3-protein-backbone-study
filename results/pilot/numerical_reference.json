@@ -1,0 +1,182 @@
+{
+  "self_conditioning": false,
+  "start": 0.01,
+  "stop": 0.99,
+  "precision": "float32",
+  "error_definition": "pre-projection, no rigid alignment",
+  "reference_is_exact": false,
+  "seeds": [
+    {
+      "seed": 123,
+      "initial_state_sha256": "f8a18507f11b928013c1d5ca8c7ee420076c127e39cc6666eb0befb3687f23c8",
+      "low_budget": [
+        {
+          "method": "euler",
+          "matched_production_budget": 21,
+          "intervals": 20,
+          "network_calls_without_final_projection": 20,
+          "translation_rms_A": 7.33599503927768,
+          "rotation_rms_rad": 0.7223872832799308,
+          "rotation_max_rad": 3.001577035204866
+        },
+        {
+          "method": "midpoint",
+          "matched_production_budget": 21,
+          "intervals": 10,
+          "network_calls_without_final_projection": 20,
+          "translation_rms_A": 7.326182006693311,
+          "rotation_rms_rad": 0.7468554276942875,
+          "rotation_max_rad": 2.816755057510313
+        },
+        {
+          "method": "euler",
+          "matched_production_budget": 101,
+          "intervals": 100,
+          "network_calls_without_final_projection": 100,
+          "translation_rms_A": 0.19762647553361565,
+          "rotation_rms_rad": 0.026948443853991224,
+          "rotation_max_rad": 0.056253224884042774
+        },
+        {
+          "method": "midpoint",
+          "matched_production_budget": 101,
+          "intervals": 50,
+          "network_calls_without_final_projection": 100,
+          "translation_rms_A": 0.05236300379899348,
+          "rotation_rms_rad": 0.006908954105318681,
+          "rotation_max_rad": 0.013846472503559863
+        }
+      ],
+      "reference_refinements": [
+        {
+          "midpoint_intervals": 128,
+          "network_calls": 256
+        },
+        {
+          "midpoint_intervals": 256,
+          "network_calls": 512,
+          "difference_from_previous": {
+            "translation_rms_A": 0.029894026932647588,
+            "rotation_rms_rad": 0.005245328015603057,
+            "rotation_max_rad": 0.017166696330069255
+          }
+        },
+        {
+          "midpoint_intervals": 512,
+          "network_calls": 1024,
+          "difference_from_previous": {
+            "translation_rms_A": 0.007499010294772595,
+            "rotation_rms_rad": 0.0017566619489675175,
+            "rotation_max_rad": 0.00701951583945971
+          },
+          "cross_solver_difference": {
+            "translation_rms_A": 0.017249844218698802,
+            "rotation_rms_rad": 0.0024059966710280344,
+            "rotation_max_rad": 0.0058377291288457
+          },
+          "cross_solver_network_calls": 1024
+        }
+      ],
+      "reference_intervals": 512,
+      "reference_confirmed_within_tolerances": true
+    },
+    {
+      "seed": 124,
+      "initial_state_sha256": "6d7b3bf91bea5f14c68965196c49dd3e20dace925fe0ce63608cf1b5b4053a0c",
+      "low_budget": [
+        {
+          "method": "euler",
+          "matched_production_budget": 21,
+          "intervals": 20,
+          "network_calls_without_final_projection": 20,
+          "translation_rms_A": 4.360646459685038,
+          "rotation_rms_rad": 0.6917354625722753,
+          "rotation_max_rad": 2.8468308650064196
+        },
+        {
+          "method": "midpoint",
+          "matched_production_budget": 21,
+          "intervals": 10,
+          "network_calls_without_final_projection": 20,
+          "translation_rms_A": 3.947782559683085,
+          "rotation_rms_rad": 0.6363114086464623,
+          "rotation_max_rad": 2.853772288043955
+        },
+        {
+          "method": "euler",
+          "matched_production_budget": 101,
+          "intervals": 100,
+          "network_calls_without_final_projection": 100,
+          "translation_rms_A": 2.550644755063292,
+          "rotation_rms_rad": 0.4974166281089669,
+          "rotation_max_rad": 2.9608277022736322
+        },
+        {
+          "method": "midpoint",
+          "matched_production_budget": 101,
+          "intervals": 50,
+          "network_calls_without_final_projection": 100,
+          "translation_rms_A": 1.4559117345842505,
+          "rotation_rms_rad": 0.41385699011561017,
+          "rotation_max_rad": 2.996166208499241
+        }
+      ],
+      "reference_refinements": [
+        {
+          "midpoint_intervals": 128,
+          "network_calls": 256
+        },
+        {
+          "midpoint_intervals": 256,
+          "network_calls": 512,
+          "difference_from_previous": {
+            "translation_rms_A": 0.04559517567438426,
+            "rotation_rms_rad": 0.010755525615564988,
+            "rotation_max_rad": 0.038622083296830985
+          }
+        },
+        {
+          "midpoint_intervals": 512,
+          "network_calls": 1024,
+          "difference_from_previous": {
+            "translation_rms_A": 1.3613536610627714,
+            "rotation_rms_rad": 0.40897435250667213,
+            "rotation_max_rad": 3.002334737193362
+          }
+        },
+        {
+          "midpoint_intervals": 1024,
+          "network_calls": 2048,
+          "difference_from_previous": {
+            "translation_rms_A": 0.009766590345039492,
+            "rotation_rms_rad": 0.0023337077561255007,
+            "rotation_max_rad": 0.010267281891150117
+          },
+          "cross_solver_difference": {
+            "translation_rms_A": 1.3480088378869317,
+            "rotation_rms_rad": 0.40793207558660366,
+            "rotation_max_rad": 3.0038014496424177
+          },
+          "cross_solver_network_calls": 2048
+        },
+        {
+          "midpoint_intervals": 2048,
+          "network_calls": 4096,
+          "difference_from_previous": {
+            "translation_rms_A": 0.0016144320000718716,
+            "rotation_rms_rad": 0.0003374109962612208,
+            "rotation_max_rad": 0.0015734720767440265
+          },
+          "cross_solver_difference": {
+            "translation_rms_A": 1.3361045383971206,
+            "rotation_rms_rad": 0.4084831742651449,
+            "rotation_max_rad": 3.008340308107754
+          },
+          "cross_solver_network_calls": 4096
+        }
+      ],
+      "reference_intervals": 2048,
+      "reference_confirmed_within_tolerances": false
+    }
+  ]
+}

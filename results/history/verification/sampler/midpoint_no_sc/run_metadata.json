@@ -1,0 +1,16 @@
+{
+  "method": "midpoint",
+  "length": 100,
+  "seed": 123,
+  "intervals": 10,
+  "network_evaluations": 21,
+  "sampling_seconds": 3.063955600000001,
+  "self_conditioning": false,
+  "midpoint_history_policy": "frozen within step; update from midpoint prediction",
+  "terminal_projection": "one clean prediction, counted in budget",
+  "terminal_time_mode": "endpoint",
+  "max_integrated_orthogonality_error": 3.403425216674805e-05,
+  "checkpoint_sha256": "7d0906e0184e87d1101a2be4c24c530d434e9fac01c1d777d65a63fccd1c958a",
+  "initial_state_sha256": "6f05400a6abb6f5fc975b159cca7814e620626eac7bf8fad1db458e3f5ae187b",
+  "pdb_sha256": "820e2942d5d05bb0512f95beea2858d3b550aa6c992727b58eda345a77b03f90"
+}

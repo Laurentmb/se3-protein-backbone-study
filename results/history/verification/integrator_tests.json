@@ -1,0 +1,86 @@
+{
+  "precision": "float64",
+  "convergence": {
+    "euler": [
+      {
+        "steps": 8,
+        "field_evaluations": 8,
+        "translation_error": 0.11293490754463037,
+        "rotation_error_rad": 0.04960542934129869,
+        "orthogonality_error": 2.220446049250313e-15,
+        "determinant_error": 1.9984014443252818e-15
+      },
+      {
+        "steps": 16,
+        "field_evaluations": 16,
+        "translation_error": 0.05588191933862861,
+        "rotation_error_rad": 0.024535465935603358,
+        "orthogonality_error": 1.9984014443252818e-15,
+        "determinant_error": 2.6645352591003757e-15
+      },
+      {
+        "steps": 32,
+        "field_evaluations": 32,
+        "translation_error": 0.02779797217466886,
+        "rotation_error_rad": 0.01220425840103007,
+        "orthogonality_error": 8.382294858222394e-12,
+        "determinant_error": 9.334866213350779e-12
+      },
+      {
+        "steps": 64,
+        "field_evaluations": 64,
+        "translation_error": 0.01386365071665016,
+        "rotation_error_rad": 0.006086656990472733,
+        "orthogonality_error": 2.674527266322002e-13,
+        "determinant_error": 2.965405698773793e-13
+      }
+    ],
+    "midpoint": [
+      {
+        "steps": 8,
+        "field_evaluations": 16,
+        "translation_error": 0.001530118977578566,
+        "rotation_error_rad": 0.0013645048616784566,
+        "orthogonality_error": 1.5543122344752192e-15,
+        "determinant_error": 1.5543122344752192e-15
+      },
+      {
+        "steps": 16,
+        "field_evaluations": 32,
+        "translation_error": 0.00037644082216270534,
+        "rotation_error_rad": 0.00033172454329870733,
+        "orthogonality_error": 2.220446049250313e-15,
+        "determinant_error": 1.9984014443252818e-15
+      },
+      {
+        "steps": 32,
+        "field_evaluations": 64,
+        "translation_error": 9.336284919854486e-05,
+        "rotation_error_rad": 8.1786433160483e-05,
+        "orthogonality_error": 8.671396933834785e-12,
+        "determinant_error": 9.64073265663501e-12
+      },
+      {
+        "steps": 64,
+        "field_evaluations": 128,
+        "translation_error": 2.3248138799943834e-05,
+        "rotation_error_rad": 2.030543306658808e-05,
+        "orthogonality_error": 2.7211566333562587e-13,
+        "determinant_error": 3.015365734881925e-13
+      }
+    ]
+  },
+  "checks": {
+    "euler_translation_error_order": 1.0036724315446868,
+    "euler_rotation_error_rad_order": 1.0036626604715269,
+    "midpoint_translation_error_order": 2.005733367599503,
+    "midpoint_rotation_error_rad_order": 2.0099957500470036,
+    "constant_field_exact": true,
+    "global_SE3_equivariance_errors": {
+      "euler": 9.992007221626409e-16,
+      "midpoint": 7.771561172376096e-16
+    },
+    "batched_zero_field": true
+  },
+  "passed": true
+}

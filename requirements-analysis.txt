@@ -1,0 +1,6 @@
+# CPU-only reproduction of structural scores and plots; Python 3.8--3.11.
+numpy==1.23.5
+scipy==1.10.1
+biopython==1.80
+tmtools==0.2.0
+matplotlib==3.7.5

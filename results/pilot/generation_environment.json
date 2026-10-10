@@ -1,0 +1,7 @@
+{
+  "torch": "2.0.1+cu118",
+  "numpy": "1.23.5",
+  "gpu": "NVIDIA GeForce GTX 1650 Ti",
+  "repo_commit": "f50d8dbbdae827be291e9f73d732b61b195f8816",
+  "protocol_sha256": "ad405c8d5014ec8c0ece09dbb683f5993ca86ce38c7067e2196db9092860528e"
+}

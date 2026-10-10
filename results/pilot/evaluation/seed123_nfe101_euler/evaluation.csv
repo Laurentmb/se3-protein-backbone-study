@@ -1,0 +1,3 @@
+id,success,residues,ca_rmsd_A,ca_mean_distance_A,tm_score_normalized_backbone,tm_score_normalized_prediction,ca_mean_bfactor_confidence_raw,ca_min_bfactor_confidence_raw,bfactor_confidence_scale,passes_rmsd_under_2A
+seed123_nfe101_euler_seq1,True,100,1.056765980830028,0.8961172575718276,0.930679130774078,0.930679130774078,0.8230000000000001,0.61,0..1,True
+seed123_nfe101_euler_seq2,True,100,1.4200187884133617,1.21640776602277,0.8921832356242229,0.8921832356242229,0.7639999999999999,0.52,0..1,True

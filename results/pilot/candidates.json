@@ -1,0 +1,362 @@
+[
+  {
+    "id": "seed123_nfe21_euler_seq1",
+    "sequence": "SLYKKDVCLVGSDGTCCPFTNTLEKIDEENVKVTVFKDEMVELIKKYSLSIEELPTSGKVSCTSGGKTVSSKEYRFKVKPGYNIEEVFKKEVDKYPEAKP",
+    "upstream_header": "T=0.1, sample=1, score=1.0574, global_score=1.0574, seq_recovery=0.0100",
+    "backbone_id": "seed123_nfe21_euler",
+    "seed": 123,
+    "budget": 21,
+    "method": "euler"
+  },
+  {
+    "id": "seed123_nfe21_euler_seq2",
+    "sequence": "REYVRDVCLCGPDGTCGPFTCRLVQLDETTVEVTVPLQEMVDIIKKYATSIEELPTSGAVSFTSGGVTYSSREYRFTVKPGTPLWEVFKKEVDKYPPAKP",
+    "upstream_header": "T=0.1, sample=2, score=1.0681, global_score=1.0681, seq_recovery=0.0300",
+    "backbone_id": "seed123_nfe21_euler",
+    "seed": 123,
+    "budget": 21,
+    "method": "euler"
+  },
+  {
+    "id": "seed123_nfe21_midpoint_seq1",
+    "sequence": "KKVVVGSVAKLPDGKIVVAEVEAKSEGEPAYEVYVEGEEEMEEWKKKAESYKESEESKKARELYPDEDIKLTIAEGEGEGAEEDEKLKEEILKKKLPFPE",
+    "upstream_header": "T=0.1, sample=1, score=1.0067, global_score=1.0067, seq_recovery=0.0800",
+    "backbone_id": "seed123_nfe21_midpoint",
+    "seed": 123,
+    "budget": 21,
+    "method": "midpoint"
+  },
+  {
+    "id": "seed123_nfe21_midpoint_seq2",
+    "sequence": "MKVVVGSVRELKDGSIVYAEVKAVPEGEPAYEKYVLGEEEMEEEEKKADSVKEHPISEEARKLNPDENYTLKIAEGEGPGAEVDEELKKEIEAKKRKLPK",
+    "upstream_header": "T=0.1, sample=2, score=1.0519, global_score=1.0519, seq_recovery=0.0800",
+    "backbone_id": "seed123_nfe21_midpoint",
+    "seed": 123,
+    "budget": 21,
+    "method": "midpoint"
+  },
+  {
+    "id": "seed123_nfe101_midpoint_seq1",
+    "sequence": "GTVKVTVKTVGADGTTVTGTGTLEVDAETFRVSAEAGVVTSGTFNENIAAGETATGNVVTVTGATGTTVTVTVKAETLDKETNEWKLLGTLKITLTNTAA",
+    "upstream_header": "T=0.1, sample=1, score=0.7585, global_score=0.7585, seq_recovery=0.1100",
+    "backbone_id": "seed123_nfe101_midpoint",
+    "seed": 123,
+    "budget": 101,
+    "method": "midpoint"
+  },
+  {
+    "id": "seed123_nfe101_midpoint_seq2",
+    "sequence": "GTVTVTVKAVGDDGTTVTGTGTLTVNAPTFRVSATPGVAESGTFTTNVKAGATATGNVVTVKGETGKTVTATVNVSTLDPATNKWVLLGTLTITLTVAAA",
+    "upstream_header": "T=0.1, sample=2, score=0.8084, global_score=0.8084, seq_recovery=0.1200",
+    "backbone_id": "seed123_nfe101_midpoint",
+    "seed": 123,
+    "budget": 101,
+    "method": "midpoint"
+  },
+  {
+    "id": "seed123_nfe101_euler_seq1",
+    "sequence": "ITVTCTDKTCLAGECTVTCSVTNTGAYPTYRVTADAATATSVTAATNIAAGATATGITATTTATAGTTTTITFTAQGYDAATGTWVTGPTATAKVTGLPA",
+    "upstream_header": "T=0.1, sample=1, score=0.8177, global_score=0.8177, seq_recovery=0.2100",
+    "backbone_id": "seed123_nfe101_euler",
+    "seed": 123,
+    "budget": 101,
+    "method": "euler"
+  },
+  {
+    "id": "seed123_nfe101_euler_seq2",
+    "sequence": "ITVTCTNVTLTAGTGTVTCTVTNTGNYPTYKVTASTATATSITSATNIKAGETATGITATTTVTAGKTTTITFTASGYDPATGKWIKGPTATATVTGVAA",
+    "upstream_header": "T=0.1, sample=2, score=0.8147, global_score=0.8147, seq_recovery=0.1500",
+    "backbone_id": "seed123_nfe101_euler",
+    "seed": 123,
+    "budget": 101,
+    "method": "euler"
+  },
+  {
+    "id": "seed124_nfe21_midpoint_seq1",
+    "sequence": "GPVLPLPGAKVIPKAGEESKKVAKEVEAKLDGSGFTLECMPTELAKKEFKGYLWIDPEYNVALAVPYSDEEKAKTLMAAYEEALRKENPNAKPFTWEKLE",
+    "upstream_header": "T=0.1, sample=1, score=1.0777, global_score=1.0777, seq_recovery=0.1200",
+    "backbone_id": "seed124_nfe21_midpoint",
+    "seed": 124,
+    "budget": 21,
+    "method": "midpoint"
+  },
+  {
+    "id": "seed124_nfe21_midpoint_seq2",
+    "sequence": "GPVLPLPGAKAIPVSGEESKKVAEEFEALLDGSGFTVEVLPVEEAKKKFKGYMYVFPEYNVAACVPYEDRELARRLFAAYEAARRAEDPNAKPLVWEELP",
+    "upstream_header": "T=0.1, sample=2, score=1.0243, global_score=1.0243, seq_recovery=0.1400",
+    "backbone_id": "seed124_nfe21_midpoint",
+    "seed": 124,
+    "budget": 21,
+    "method": "midpoint"
+  },
+  {
+    "id": "seed124_nfe21_euler_seq1",
+    "sequence": "PPPKPPPKVTLTVLSETPTEVTVLVKVDAPDMEDRTFTFTKTPDGVLAMPGDDVVYELNGKRYRVSLSDEEFMKMVFEALSKNELPDAPPYKLLSRKRGP",
+    "upstream_header": "T=0.1, sample=1, score=1.0851, global_score=1.0851, seq_recovery=0.0400",
+    "backbone_id": "seed124_nfe21_euler",
+    "seed": 124,
+    "budget": 21,
+    "method": "euler"
+  },
+  {
+    "id": "seed124_nfe21_euler_seq2",
+    "sequence": "GPVKPPPKVTLEVLSETPTTVTVKITVKAEDRKDRTLTFTKTEDGVLAEEGCDVTFEFNGKTYRVSCSRREFMREVFESLSANEYPDAPPVRLLSEKVAP",
+    "upstream_header": "T=0.1, sample=2, score=1.1069, global_score=1.1069, seq_recovery=0.0500",
+    "backbone_id": "seed124_nfe21_euler",
+    "seed": 124,
+    "budget": 21,
+    "method": "euler"
+  },
+  {
+    "id": "seed124_nfe101_euler_seq1",
+    "sequence": "GPLAPPQPKVEVVTATEEEAKKLAEEVAGTLSPEALAELKKIAEEWKKIPGVKVYEKNGGIAIAAPKDAAEKIKKEVTAALQKVSDRTGKAYKVVIVALK",
+    "upstream_header": "T=0.1, sample=1, score=0.9090, global_score=0.9090, seq_recovery=0.1700",
+    "backbone_id": "seed124_nfe101_euler",
+    "seed": 124,
+    "budget": 101,
+    "method": "euler"
+  },
+  {
+    "id": "seed124_nfe101_euler_seq2",
+    "sequence": "GPLPPPQPVVEVVTATAAEAAALADEVAGTLSPAALAALRALAAKWAAVPGVTVIEKDGGIAIAAPAAAAAAIAAEVAAALAAVAAETGEAHRAVIVALA",
+    "upstream_header": "T=0.1, sample=2, score=0.8275, global_score=0.8275, seq_recovery=0.3900",
+    "backbone_id": "seed124_nfe101_euler",
+    "seed": 124,
+    "budget": 101,
+    "method": "euler"
+  },
+  {
+    "id": "seed124_nfe101_midpoint_seq1",
+    "sequence": "GPLAPPQPKVEVVTATEEEAKKIAEEIAGTLDEEALKELKKIAEEWKKEPGVKVYEKNGGIAIAAPKDVAEKIKKEVTKALQKVADKTGKAYTVKIVALK",
+    "upstream_header": "T=0.1, sample=1, score=0.8834, global_score=0.8834, seq_recovery=0.1500",
+    "backbone_id": "seed124_nfe101_midpoint",
+    "seed": 124,
+    "budget": 101,
+    "method": "midpoint"
+  },
+  {
+    "id": "seed124_nfe101_midpoint_seq2",
+    "sequence": "GPLPPPQPVVEVVTATAAEAKALADEVAGTLSPAALAALRAIAAKWAAVPGVTVIEKDGGIAIAADAATAAAIAAEVAAALAAVAAETGEAHRVVIVATA",
+    "upstream_header": "T=0.1, sample=2, score=0.8280, global_score=0.8280, seq_recovery=0.3600",
+    "backbone_id": "seed124_nfe101_midpoint",
+    "seed": 124,
+    "budget": 101,
+    "method": "midpoint"
+  },
+  {
+    "id": "seed125_nfe21_euler_seq1",
+    "sequence": "SATVEELPGGVIVISLTVKKGEKVTVTIDGSAGGPVTFVDPLEKIKALLDEIAENVKIEINADKTKYTITFTAKKDYPELKLTIQRDPNGGPVKISVTFS",
+    "upstream_header": "T=0.1, sample=1, score=0.9661, global_score=0.9661, seq_recovery=0.0600",
+    "backbone_id": "seed125_nfe21_euler",
+    "seed": 125,
+    "budget": 21,
+    "method": "euler"
+  },
+  {
+    "id": "seed125_nfe21_euler_seq2",
+    "sequence": "SVTVVELPGGVLEIRITVKKGEKVTLTIDGSAGGPFTLVEPLETVKAKLNKIAKDVKIEQNPDQTVLTITFTAKVDYPEFVLRVKRSPDGGPLQVSASFE",
+    "upstream_header": "T=0.1, sample=2, score=1.0050, global_score=1.0050, seq_recovery=0.0500",
+    "backbone_id": "seed125_nfe21_euler",
+    "seed": 125,
+    "budget": 21,
+    "method": "euler"
+  },
+  {
+    "id": "seed125_nfe21_midpoint_seq1",
+    "sequence": "SYVFKSKDPLIKEMIEYCKSHKEAYKTVPLSKITDPEVFKALEKENERLKKLLPEKKELLDTGNVEQLVELLKSANLKSTIYLLKGPPDKKEDVILVYHG",
+    "upstream_header": "T=0.1, sample=1, score=1.1450, global_score=1.1450, seq_recovery=0.0300",
+    "backbone_id": "seed125_nfe21_midpoint",
+    "seed": 125,
+    "budget": 21,
+    "method": "midpoint"
+  },
+  {
+    "id": "seed125_nfe21_midpoint_seq2",
+    "sequence": "ARVFQSDDPLIQEMVAKCAAHPEAHATVPLSKITSPEVFEQLEAANEALKAAFPEHAELLDTGSPEEIVEILRSGGVESYIVLLKGPPDEEEDVVLVYHG",
+    "upstream_header": "T=0.1, sample=2, score=1.1288, global_score=1.1288, seq_recovery=0.1200",
+    "backbone_id": "seed125_nfe21_midpoint",
+    "seed": 125,
+    "budget": 21,
+    "method": "midpoint"
+  },
+  {
+    "id": "seed125_nfe101_midpoint_seq1",
+    "sequence": "MTVKLSVATPGSTATVTVKVKPGETVTVVISGAENGTWATTPAQVEAALKGHVENLKVDIDTATGTITITFTVKADAKDFTLTLPGGADFKGTAVVNFKV",
+    "upstream_header": "T=0.1, sample=1, score=0.7892, global_score=0.7892, seq_recovery=0.1200",
+    "backbone_id": "seed125_nfe101_midpoint",
+    "seed": 125,
+    "budget": 101,
+    "method": "midpoint"
+  },
+  {
+    "id": "seed125_nfe101_midpoint_seq2",
+    "sequence": "MTVTLTVTTAGSTATVTVTVAPGETVTVVLSGAENGTWATTAADVNAALAGKATDVTVTDDAATGTLTITFTVAAGATSTTLTLPLGADGAGTYVVNFTV",
+    "upstream_header": "T=0.1, sample=2, score=0.7416, global_score=0.7416, seq_recovery=0.1800",
+    "backbone_id": "seed125_nfe101_midpoint",
+    "seed": 125,
+    "budget": 101,
+    "method": "midpoint"
+  },
+  {
+    "id": "seed125_nfe101_euler_seq1",
+    "sequence": "SMTTSLDASGVTVHTVKVEKGKEFTFTVTITGDTGTDPADIKAFWEKGVSKFMEDFKITITKDGDTITVTITGKLKVEEGTILYPGGAGQATAVKIVIEG",
+    "upstream_header": "T=0.1, sample=1, score=0.9758, global_score=0.9758, seq_recovery=0.0600",
+    "backbone_id": "seed125_nfe101_euler",
+    "seed": 125,
+    "budget": 101,
+    "method": "euler"
+  },
+  {
+    "id": "seed125_nfe101_euler_seq2",
+    "sequence": "GMTESLDADGVRVVTVTATLGATFTITITIEGCTGTDPADVEAQIKEGVAKIMTDFTITITRSGTSLTVTITGKLAVASGEILLPGGPGCATAVRIVITG",
+    "upstream_header": "T=0.1, sample=2, score=1.0122, global_score=1.0122, seq_recovery=0.1000",
+    "backbone_id": "seed125_nfe101_euler",
+    "seed": 125,
+    "budget": 101,
+    "method": "euler"
+  },
+  {
+    "id": "seed126_nfe21_midpoint_seq1",
+    "sequence": "SAEEEKVEKVCKLMTEELLKSLSPEEQKKLAAKGWTPESIYQYYLDFFKENKDDPEVREIVEKFAEIFSESKSEEERKEEFPKGLKELEKLEEKKKKEKE",
+    "upstream_header": "T=0.1, sample=1, score=1.1884, global_score=1.1884, seq_recovery=0.0400",
+    "backbone_id": "seed126_nfe21_midpoint",
+    "seed": 126,
+    "budget": 21,
+    "method": "midpoint"
+  },
+  {
+    "id": "seed126_nfe21_midpoint_seq2",
+    "sequence": "AEEEAKYKEVCKKITEMILESLSPEEQAKVKAKGLTPESIYNYYLNFFEENKDDPEVRAIFDEIAEVFSEDKSEEEKKAEFPKLLAKIEELIEKKKKEKE",
+    "upstream_header": "T=0.1, sample=2, score=1.2140, global_score=1.2140, seq_recovery=0.0800",
+    "backbone_id": "seed126_nfe21_midpoint",
+    "seed": 126,
+    "budget": 21,
+    "method": "midpoint"
+  },
+  {
+    "id": "seed126_nfe21_euler_seq1",
+    "sequence": "AAEQAALDALAEALAAAIWAEASPEERAALAAAGFTRESLLARIRSLLARLAADPARRPLLDRLLAAHPRGRSPEEVRAALPAVVALLEAAEAELAAAAA",
+    "upstream_header": "T=0.1, sample=1, score=1.0536, global_score=1.0536, seq_recovery=0.3600",
+    "backbone_id": "seed126_nfe21_euler",
+    "seed": 126,
+    "budget": 21,
+    "method": "euler"
+  },
+  {
+    "id": "seed126_nfe21_euler_seq2",
+    "sequence": "AAEAARLAALARAIAARILATSSPEERAALRASGLTPESLLARVAALLERLAATPEHQPLLDRLLAAHPEGRTPEEVAAEMPAVWALLEAAEAALAAAAA",
+    "upstream_header": "T=0.1, sample=2, score=1.0187, global_score=1.0187, seq_recovery=0.3400",
+    "backbone_id": "seed126_nfe21_euler",
+    "seed": 126,
+    "budget": 21,
+    "method": "euler"
+  },
+  {
+    "id": "seed126_nfe101_euler_seq1",
+    "sequence": "EELEKLKEEIKKLAKEIVEKLEKDKSRKERAKEVKKLLEELLKKIEEMEKGVKPEEVYELAKKIAEVANLGGEFKKLVEELVKKVKEAAKLAEERKKKKE",
+    "upstream_header": "T=0.1, sample=1, score=0.9482, global_score=0.9482, seq_recovery=0.0800",
+    "backbone_id": "seed126_nfe101_euler",
+    "seed": 126,
+    "budget": 101,
+    "method": "euler"
+  },
+  {
+    "id": "seed126_nfe101_euler_seq2",
+    "sequence": "SELEKLFEEIKKLAEEIKKILKERPEKAEKAKKVEKLLEELLKLIEEAPKGIKPEEIYKKAEEIKKVINEGGELKKKVEELKKKVYEYAKLIEEEKKKKE",
+    "upstream_header": "T=0.1, sample=2, score=0.9645, global_score=0.9645, seq_recovery=0.0600",
+    "backbone_id": "seed126_nfe101_euler",
+    "seed": 126,
+    "budget": 101,
+    "method": "euler"
+  },
+  {
+    "id": "seed126_nfe101_midpoint_seq1",
+    "sequence": "SRFEELLERIRELARRLAERYRAEHPPEEAAPVAEEFLALVEAAIEELRKGGSLEEAERILELLERANDPSLSAAEQRAALEEVRKEIEKLLEEAKKKRE",
+    "upstream_header": "T=0.1, sample=1, score=1.1413, global_score=1.1413, seq_recovery=0.1600",
+    "backbone_id": "seed126_nfe101_midpoint",
+    "seed": 126,
+    "budget": 101,
+    "method": "midpoint"
+  },
+  {
+    "id": "seed126_nfe101_midpoint_seq2",
+    "sequence": "SHFEELLKKIEEKARELAKRIKEILPEEEAKPIAEELLKLVEEYIKELKEGGKLEEAEEVLKLLEEAVDPSKSDEEVLKLIEETKKYIKELLEKRKKEKE",
+    "upstream_header": "T=0.1, sample=2, score=1.0304, global_score=1.0304, seq_recovery=0.0600",
+    "backbone_id": "seed126_nfe101_midpoint",
+    "seed": 126,
+    "budget": 101,
+    "method": "midpoint"
+  },
+  {
+    "id": "seed127_nfe21_euler_seq1",
+    "sequence": "SSCSYTTYTYEKGGSKTIVPNCPNKESTYELGDSNVVAAISPEVGEKILKENKSNKVLTFDWDYFEKVGLNSLYGKRVLEKYGEEEVKKMIEKIKNYKAK",
+    "upstream_header": "T=0.1, sample=1, score=1.0012, global_score=1.0012, seq_recovery=0.0300",
+    "backbone_id": "seed127_nfe21_euler",
+    "seed": 127,
+    "budget": 21,
+    "method": "euler"
+  },
+  {
+    "id": "seed127_nfe21_euler_seq2",
+    "sequence": "SMCSWTTYTYEKGGSSTTVPNCPDKEPTFELGPSNTVAALSPEVGAEILASNTSDEVLTFDWEWFEEVGLNSLYGKRVLERLGEEEVERIIEEIRNARAP",
+    "upstream_header": "T=0.1, sample=2, score=1.0907, global_score=1.0907, seq_recovery=0.0600",
+    "backbone_id": "seed127_nfe21_euler",
+    "seed": 127,
+    "budget": 21,
+    "method": "euler"
+  },
+  {
+    "id": "seed127_nfe21_midpoint_seq1",
+    "sequence": "MTVRVGGRPEDLAAWLERLRAAPEAVAATEFTPEARAALAAALALLEEAAALSPEAAAALWAEAGAGDPRLAALLARLREWEATDPSFVARLAALFRALA",
+    "upstream_header": "T=0.1, sample=1, score=0.9234, global_score=0.9234, seq_recovery=0.3300",
+    "backbone_id": "seed127_nfe21_midpoint",
+    "seed": 127,
+    "budget": 21,
+    "method": "midpoint"
+  },
+  {
+    "id": "seed127_nfe21_midpoint_seq2",
+    "sequence": "MTVRVGGAPADLAAFLERWAADPASIAAVEFTPEARAALAAALALLERCAALPPEEAAALWAAAGAGDPALAALLAALARLAAEDPSLLAALAALFRALA",
+    "upstream_header": "T=0.1, sample=2, score=0.9222, global_score=0.9222, seq_recovery=0.3900",
+    "backbone_id": "seed127_nfe21_midpoint",
+    "seed": 127,
+    "budget": 21,
+    "method": "midpoint"
+  },
+  {
+    "id": "seed127_nfe101_midpoint_seq1",
+    "sequence": "AAPPTYTVTITIDDTTITVDIKPGETSAASTVTTTTKTITISVSSGEATITVTVDGKTTKTNGTFTNITTADYTITIEHLDENGETVTDTLGKLTVTVTA",
+    "upstream_header": "T=0.1, sample=1, score=0.9319, global_score=0.9319, seq_recovery=0.0700",
+    "backbone_id": "seed127_nfe101_midpoint",
+    "seed": 127,
+    "budget": 101,
+    "method": "midpoint"
+  },
+  {
+    "id": "seed127_nfe101_midpoint_seq2",
+    "sequence": "PPPPTFTVTITIDNQTLTQTITPGESSAAATVTTTTTTINVSVTSGNATITVTVNGSTTSINGSYTNITTATYTISLNSLGPDGTTVTNTLGALTVTVTA",
+    "upstream_header": "T=0.1, sample=2, score=0.9219, global_score=0.9219, seq_recovery=0.0700",
+    "backbone_id": "seed127_nfe101_midpoint",
+    "seed": 127,
+    "budget": 101,
+    "method": "midpoint"
+  },
+  {
+    "id": "seed127_nfe101_euler_seq1",
+    "sequence": "PAPPVCEDKTVAAGSTATLTCTSDSHGTTTVTYTGSGTLSLSSSSVPTTLTVTYNGSTTSCSTSCTNLTAGTYLVSLSWLDESGETVTSSPGTLTLTAAA",
+    "upstream_header": "T=0.1, sample=1, score=0.8904, global_score=0.8904, seq_recovery=0.0800",
+    "backbone_id": "seed127_nfe101_euler",
+    "seed": 127,
+    "budget": 101,
+    "method": "euler"
+  },
+  {
+    "id": "seed127_nfe101_euler_seq2",
+    "sequence": "ATPPVCTNKTVAWGETATITCTSDSHGTTTVTVTGSGTISLSSSSVPTTLTVTKNGSTTTCSSSCTNLTAGTYTVSVSWLGPDGTTVTSTPGTVTLTKTA",
+    "upstream_header": "T=0.1, sample=2, score=0.8478, global_score=0.8478, seq_recovery=0.0500",
+    "backbone_id": "seed127_nfe101_euler",
+    "seed": 127,
+    "budget": 101,
+    "method": "euler"
+  }
+]

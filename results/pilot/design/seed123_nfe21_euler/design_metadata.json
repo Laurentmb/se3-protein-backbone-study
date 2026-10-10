@@ -1,0 +1,22 @@
+{
+  "backbone": "results/pilot\\backbones\\seed123_nfe21_euler.pdb",
+  "model_name": "v_48_020",
+  "seed": 38,
+  "temperature": 0.1,
+  "num_sequences": 2,
+  "seconds": 7.5902465999999995,
+  "checkpoint_sha256": "c9cb4a671d79604111231f8dbfc7c590e06f1197453b7a6854ac6661a642f5bd",
+  "repo_commit": "53359d71cfabc819ffaa571abd2cef736c871a5d",
+  "candidates": [
+    {
+      "id": "seed123_nfe21_euler_seq1",
+      "sequence": "SLYKKDVCLVGSDGTCCPFTNTLEKIDEENVKVTVFKDEMVELIKKYSLSIEELPTSGKVSCTSGGKTVSSKEYRFKVKPGYNIEEVFKKEVDKYPEAKP",
+      "upstream_header": "T=0.1, sample=1, score=1.0574, global_score=1.0574, seq_recovery=0.0100"
+    },
+    {
+      "id": "seed123_nfe21_euler_seq2",
+      "sequence": "REYVRDVCLCGPDGTCGPFTCRLVQLDETTVEVTVPLQEMVDIIKKYATSIEELPTSGAVSFTSGGVTYSSREYRFTVKPGTPLWEVFKKEVDKYPPAKP",
+      "upstream_header": "T=0.1, sample=2, score=1.0681, global_score=1.0681, seq_recovery=0.0300"
+    }
+  ]
+}

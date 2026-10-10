@@ -1,0 +1,9 @@
+# Install torch and torch-scatter separately as explained in docs/SETUP.md.
+-r requirements-analysis.txt
+dm-tree==0.1.8
+hydra-core==1.3.2
+omegaconf==2.3.0
+ml-collections==0.1.1
+einops==0.6.1
+absl-py==1.4.0
+tqdm==4.59.0

@@ -1,0 +1,11 @@
+# Preserve downloaded PDB responses and binary initial states exactly.
+*.pdb -text
+*.pt -text
+*.png -text
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+# Evidence hashes must survive Git checkout on every platform.
+results/** -text

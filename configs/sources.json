@@ -1,0 +1,21 @@
+{
+  "frameflow": {
+    "url": "https://github.com/microsoft/protein-frame-flow.git",
+    "commit": "f50d8dbbdae827be291e9f73d732b61b195f8816",
+    "weights_url": "https://zenodo.org/records/12776473/files/weights.tar.gz?download=1",
+    "archive_md5": "f08937bbf1bbf4889771e6eee2451c53",
+    "checkpoint_sha256": "7d0906e0184e87d1101a2be4c24c530d434e9fac01c1d777d65a63fccd1c958a",
+    "config_sha256": "e1459eedc6adf67d1dc2b9f00f8e93e9567b638657bf3d4dcdbe3024dc5159c2"
+  },
+  "framediff": {
+    "url": "https://github.com/jasonkyuyim/se3_diffusion.git",
+    "commit": "53359d71cfabc819ffaa571abd2cef736c871a5d",
+    "checkpoint_sha256": "b9837036e673e9e4b1e3091e88b300e0f9bef5ac961d4aa08e77e5b75c9eb081"
+  },
+  "proteinmpnn": {
+    "url": "https://github.com/dauparas/ProteinMPNN",
+    "code_source": "ProteinMPNN/ in the pinned FrameDiff checkout",
+    "model": "v_48_020",
+    "checkpoint_sha256": "c9cb4a671d79604111231f8dbfc7c590e06f1197453b7a6854ac6661a642f5bd"
+  }
+}

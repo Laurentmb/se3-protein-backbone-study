@@ -1,0 +1,3 @@
+id,success,residues,ca_rmsd_A,ca_mean_distance_A,tm_score_normalized_backbone,tm_score_normalized_prediction,ca_mean_bfactor_confidence_raw,ca_min_bfactor_confidence_raw,bfactor_confidence_scale,passes_rmsd_under_2A
+seed124_nfe21_midpoint_seq1,True,100,9.206279320978872,7.514145986839528,0.6744502076976657,0.6744502076976657,0.609,0.26,0..1,False
+seed124_nfe21_midpoint_seq2,True,100,2.265343030439174,1.8378903070032908,0.8503308983803812,0.8503308983803812,0.6901,0.29,0..1,False

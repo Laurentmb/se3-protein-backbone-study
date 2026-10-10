@@ -1,0 +1,22 @@
+{
+  "backbone": "results/pilot\\backbones\\seed126_nfe21_midpoint.pdb",
+  "model_name": "v_48_020",
+  "seed": 38,
+  "temperature": 0.1,
+  "num_sequences": 2,
+  "seconds": 6.9933302,
+  "checkpoint_sha256": "c9cb4a671d79604111231f8dbfc7c590e06f1197453b7a6854ac6661a642f5bd",
+  "repo_commit": "53359d71cfabc819ffaa571abd2cef736c871a5d",
+  "candidates": [
+    {
+      "id": "seed126_nfe21_midpoint_seq1",
+      "sequence": "SAEEEKVEKVCKLMTEELLKSLSPEEQKKLAAKGWTPESIYQYYLDFFKENKDDPEVREIVEKFAEIFSESKSEEERKEEFPKGLKELEKLEEKKKKEKE",
+      "upstream_header": "T=0.1, sample=1, score=1.1884, global_score=1.1884, seq_recovery=0.0400"
+    },
+    {
+      "id": "seed126_nfe21_midpoint_seq2",
+      "sequence": "AEEEAKYKEVCKKITEMILESLSPEEQAKVKAKGLTPESIYNYYLNFFEENKDDPEVRAIFDEIAEVFSEDKSEEEKKAEFPKLLAKIEELIEKKKKEKE",
+      "upstream_header": "T=0.1, sample=2, score=1.2140, global_score=1.2140, seq_recovery=0.0800"
+    }
+  ]
+}

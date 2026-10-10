@@ -1,0 +1,40 @@
+{
+  "attempted_sequences": 2,
+  "successful_predictions": 2,
+  "pipeline_verified": true,
+  "rmsd_definition": "sqrt(mean(squared CA distances)), all residues, Kabsch fit",
+  "tm_score_definition": "TM-align vended by tmtools 0.2.0, both normalizations",
+  "metric_rigid_transform_control_rmsd_A": 4.239889257491234e-15,
+  "candidates": [
+    {
+      "id": "seed125_nfe21_euler_seq1",
+      "success": true,
+      "residues": 100,
+      "ca_rmsd_A": 0.6294597689693535,
+      "ca_mean_distance_A": 0.5289774796133145,
+      "tm_score_normalized_backbone": 0.9729361869192812,
+      "tm_score_normalized_prediction": 0.9729361869192812,
+      "ca_mean_bfactor_confidence_raw": 0.9004000000000001,
+      "ca_min_bfactor_confidence_raw": 0.77,
+      "bfactor_confidence_scale": "0..1",
+      "passes_rmsd_under_2A": true
+    },
+    {
+      "id": "seed125_nfe21_euler_seq2",
+      "success": true,
+      "residues": 100,
+      "ca_rmsd_A": 0.8163650836267714,
+      "ca_mean_distance_A": 0.7261466920986075,
+      "tm_score_normalized_backbone": 0.9544822527893334,
+      "tm_score_normalized_prediction": 0.9544822527893334,
+      "ca_mean_bfactor_confidence_raw": 0.8858000000000003,
+      "ca_min_bfactor_confidence_raw": 0.75,
+      "bfactor_confidence_scale": "0..1",
+      "passes_rmsd_under_2A": true
+    }
+  ],
+  "best_sequence_by_rmsd": "seed125_nfe21_euler_seq1",
+  "scRMSD_A": 0.6294597689693535,
+  "scTM": 0.9729361869192812,
+  "passes_scRMSD_under_2A": true
+}

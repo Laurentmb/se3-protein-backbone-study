@@ -1,0 +1,65 @@
+<original-runtime>\lib\site-packages\torch\nn\modules\transformer.py:562: UserWarning: Converting mask without torch.bool dtype to bool; this will negatively affect performance. Prefer to use a boolean mask directly. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\transformers\attention.cpp:152.)
+  return torch._transformer_encoder_layer_fwd(
+Model forward pass 1 / ~100
+Model forward pass 50 / ~100
+Model forward pass 100 / ~100
+{
+  "model": "frameflow",
+  "length": 100,
+  "seed": 123,
+  "repo_url": "https://github.com/microsoft/protein-frame-flow",
+  "repo_commit": "f50d8dbbdae827be291e9f73d732b61b195f8816",
+  "checkpoint_filename": "weights\\pdb\\published.ckpt",
+  "checkpoint_sha256": "7d0906e0184e87d1101a2be4c24c530d434e9fac01c1d777d65a63fccd1c958a",
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce GTX 1650 Ti",
+  "torch": "2.0.1+cu118",
+  "python": "3.8.8 (default, Apr 13 2021, 15:08:03) [MSC v.1916 64 bit (AMD64)]",
+  "numpy": "1.23.5",
+  "setup_seconds": 6.7092591,
+  "sampling_seconds": 12.307750399999998,
+  "peak_gpu_allocated_mib": 137.009765625,
+  "peak_gpu_reserved_mib": 178.0,
+  "num_forward_passes": 100,
+  "pdb_sha256": "ce97dcb2aa012d8efc5bf91d703fb8b28f77c95c1ea2f2e483aca36d12f74f25",
+  "compatibility_adaptations": [
+    "Windows atom group indices cast to int64",
+    "generation-only wrapper; no training or folding models loaded"
+  ],
+  "runner_sha256": "4d148013d06ab20c401fcda8195f17ae355ae8cb63d7b8a286c9505080e2ed73",
+  "num_steps": 100,
+  "interpolant": {
+    "min_t": 0.01,
+    "rots": {
+      "corrupt": true,
+      "sample_schedule": "exp",
+      "exp_rate": 10
+    },
+    "trans": {
+      "corrupt": true,
+      "sample_schedule": "linear"
+    },
+    "sampling": {
+      "num_timesteps": 100
+    },
+    "self_condition": true,
+    "twisting": {
+      "use": false,
+      "t_min": 0.2,
+      "scale": 1.0,
+      "r_t": 1,
+      "potential_trans": true,
+      "potential_rot": true,
+      "update_trans": true,
+      "update_rot": true,
+      "max_rot_grad_norm": 1000,
+      "align": true,
+      "motif_loc": false,
+      "max_offsets": 1000,
+      "num_rots": 1,
+      "scale_rots": 0.0,
+      "obs_noise": 0.0
+    }
+  }
+}
+Saved results/history/first-generation\frameflow\frameflow_L100_seed123.pdb
