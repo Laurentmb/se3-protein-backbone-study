@@ -13,7 +13,7 @@ produce more self-consistent protein backbones?
 2. **Generate backbones.** Run Euler and midpoint from exactly the same initial
    positions and rotations, at equal network-evaluation budgets.
 3. **Design sequences.** ProteinMPNN proposes two amino-acid sequences for each
-   generated backbone. The input's placeholder polyalanine is excluded.
+   generated backbone. Only the two sequences designed by ProteinMPNN are evaluated; the original all-alanine placeholder sequence is ignored.
 4. **Predict structures.** ESMFold predicts a structure for each designed
    sequence. The recorded experiment used the public ESM Atlas API.
 5. **Evaluate and compare.** Align each prediction to its source backbone,
