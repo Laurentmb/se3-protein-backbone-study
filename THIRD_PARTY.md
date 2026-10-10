@@ -2,7 +2,7 @@
 
 The project implements a standard explicit Lie midpoint integrator and provides
 wrappers, paired experiment orchestration, validation, scores and reports.
-Its development used AI coding assistance. No new pretrained model or new
+No new pretrained model or new
 numerical integration method is claimed.
 
 ## Model sources
