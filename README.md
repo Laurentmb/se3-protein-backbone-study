@@ -98,7 +98,7 @@ to preserve the exact paired inputs.
 
 This project implements a standard Lie midpoint method, connects it to FrameFlow,
 and builds a controlled evaluation pipeline. It uses published pretrained models;
-no model training was performed. Implementation was developed with AI coding assistance.
+no model training was performed. 
 
 - [FrameFlow code](https://github.com/microsoft/protein-frame-flow),
   [backbone-generation paper](https://arxiv.org/abs/2310.05297) and
